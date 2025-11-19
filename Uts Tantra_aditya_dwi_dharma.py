@@ -1,4 +1,4 @@
-n = 2
+n = int(input("masukkan jumlah barang : "))
 dict = {}
 budget = int(input("Masukkan budget: "))
 
@@ -63,3 +63,4 @@ while i < len(list_barang):
 print(f"Total barang terbeli : {barang_terbeli}")
 print(f"Total biaya : {total_biaya}")
 print(f"Sisa budget : {budget}")
+
